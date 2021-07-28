@@ -1,0 +1,58 @@
+<html>
+
+<head>
+    <title>
+        Hair studio
+    </title>
+    <link rel="stylesheet" href="style2.css">
+    <meta name="viewport" content="width = divice-width, initial-scale = 1">
+</head>
+
+<body>
+    <section id="banner">
+        <img src="img/logo.png" class="logo">
+        <div class="banner-text">
+            <h1>Hair Studio</h1>
+            <p>Style your hair is to style your life.</p>
+            <div class="btn">
+                <a href=""><span></span>Find out</a>
+                <a href=""><span></span>Read More</a>
+            </div>
+        </div>
+
+    </section>
+    <div id="sidenav" style="right:-200px">
+        <nav>
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">FEATURES</a></li>
+                <li><a href="#">SERVICES</a></li>
+                <li><a href="#">TESTIMONIALS</a></li>
+                <li><a href="#">MEET US</a></li>    
+            </ul>
+        </nav>
+    </div>
+    <div id="menubtn">
+        <img src="img/menu.png" id="menu">
+    </div>
+
+    <script>
+        var menubtn = document.getElementById("menubtn")
+        var sidenav = document.getElementById("sidenav")
+        var menu = document.getElementById("menu")
+
+        sidenav.style.rigth = "-200px"; 
+        menubtn.onclick = function(){
+            if(sidenav.style.rigth = "-200px"){
+                sidenav.style.right = "0";
+                menu.src = "img/close.png";
+            }
+            else
+                sidenav.style.rigth = "-200px";
+                menu.src = "img/menu.png";
+            
+        }
+    </script>
+</body>
+
+</html>
