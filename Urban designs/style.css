@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    background-image: url(images/background.png);
+    background-position: center;
+    background-size: cover;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-sizing: border-box;
+    position: relative;
+}
+.navbar{
+    width: 100%;
+    height: 17vh;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+.logo{
+        width: 190px;
+       cursor: pointer;
+}
+.cart{
+        width: 90px;
+        cursor: pointer;
+}
+nav{
+    flex: 1;
+    padding-left: 60;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 0px 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+.content h1{
+    font-size: 50px;
+    font-weight: 100%;
+    margin-top: 24px;
+    margin-bottom: 15px;
+    color: black;
+}
+.content p{
+    font-size: 20px;
+    color: grey;
+}
+.content{
+    margin-left: 10%;
+    margin-top: 7%;
+}
+.content .btn{
+    display: inline-block;
+    background: linear-gradient(45deg, rgb(245, 178, 234), rgb(143, 217, 231));
+    border-radius: 6px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: white;
+}
+.arrow-icons img{
+    width: 40px;
+    margin-top: 25px;
+}
+.arrow-icons{
+    margin-top: 10px;
+    display: flex;
+}
+.feature-img{
+    height: 90%;
+    bottom: 0;
+    position: absolute;
+    right: 170px;
+}
+.social{
+    transform: rotate(-90deg);
+    position: absolute;
+    left: -80px;
+    bottom: 150px;
+}
+.social a{
+    text-decoration: none;
+    color: black;
+    padding-right: 15px;
+    font-size: 14px;
+}
